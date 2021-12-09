@@ -1,1 +1,6 @@
-echo "i like git versioning"
+echo "create a file"
+echo "file name is"
+read file
+touch $file
+echo "$file has been created"
+
